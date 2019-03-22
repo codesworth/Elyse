@@ -13,6 +13,83 @@
 		387373A1224596FA00A1FB7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 387373A0224596FA00A1FB7B /* Assets.xcassets */; };
 		387373A4224596FA00A1FB7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387373A2224596FA00A1FB7B /* LaunchScreen.storyboard */; };
 		387373AF224596FA00A1FB7B /* ElyseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387373AE224596FA00A1FB7B /* ElyseTests.swift */; };
+		38737A2822459A0D00A1FB7B /* NSError+Spectrum.m in Sources */ = {isa = PBXBuildFile; fileRef = 3873799422459A0B00A1FB7B /* NSError+Spectrum.m */; };
+		38737A2922459A0D00A1FB7B /* FSPConfigurationJpeg.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3873799722459A0B00A1FB7B /* FSPConfigurationJpeg.mm */; };
+		38737A2A22459A0D00A1FB7B /* FSPConfigurationWebp.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3873799822459A0B00A1FB7B /* FSPConfigurationWebp.mm */; };
+		38737A2B22459A0D00A1FB7B /* FSPConfiguration.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3873799B22459A0B00A1FB7B /* FSPConfiguration.mm */; };
+		38737A2C22459A0D00A1FB7B /* FSPConfigurationGeneral.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3873799D22459A0B00A1FB7B /* FSPConfigurationGeneral.mm */; };
+		38737A2D22459A0D00A1FB7B /* FSPConfigurationPng.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3873799E22459A0B00A1FB7B /* FSPConfigurationPng.mm */; };
+		38737A2E22459A0D00A1FB7B /* FSPTransformations.mm in Sources */ = {isa = PBXBuildFile; fileRef = 387379A222459A0B00A1FB7B /* FSPTransformations.mm */; };
+		38737A2F22459A0D00A1FB7B /* FSPSpectrum.mm in Sources */ = {isa = PBXBuildFile; fileRef = 387379A422459A0B00A1FB7B /* FSPSpectrum.mm */; };
+		38737A3022459A0D00A1FB7B /* OutputStreamImageSink.mm in Sources */ = {isa = PBXBuildFile; fileRef = 387379A622459A0B00A1FB7B /* OutputStreamImageSink.mm */; };
+		38737A3122459A0D00A1FB7B /* InputStreamImageSource.mm in Sources */ = {isa = PBXBuildFile; fileRef = 387379A722459A0B00A1FB7B /* InputStreamImageSource.mm */; };
+		38737A3222459A0D00A1FB7B /* BitmapImageSource.mm in Sources */ = {isa = PBXBuildFile; fileRef = 387379A822459A0B00A1FB7B /* BitmapImageSource.mm */; };
+		38737A3322459A0D00A1FB7B /* FSPRotateRequirement.mm in Sources */ = {isa = PBXBuildFile; fileRef = 387379B222459A0C00A1FB7B /* FSPRotateRequirement.mm */; };
+		38737A3422459A0D00A1FB7B /* FSPAbsoluteToOriginCropRequirement.mm in Sources */ = {isa = PBXBuildFile; fileRef = 387379B322459A0C00A1FB7B /* FSPAbsoluteToOriginCropRequirement.mm */; };
+		38737A3522459A0D00A1FB7B /* FSPRelativeToOriginCropRequirement.mm in Sources */ = {isa = PBXBuildFile; fileRef = 387379B422459A0C00A1FB7B /* FSPRelativeToOriginCropRequirement.mm */; };
+		38737A3622459A0D00A1FB7B /* FSPEncodeRequirement.mm in Sources */ = {isa = PBXBuildFile; fileRef = 387379B622459A0C00A1FB7B /* FSPEncodeRequirement.mm */; };
+		38737A3722459A0D00A1FB7B /* FSPResizeRequirement.mm in Sources */ = {isa = PBXBuildFile; fileRef = 387379B822459A0C00A1FB7B /* FSPResizeRequirement.mm */; };
+		38737A3822459A0D00A1FB7B /* FSPImageMetadata.mm in Sources */ = {isa = PBXBuildFile; fileRef = 387379BD22459A0C00A1FB7B /* FSPImageMetadata.mm */; };
+		38737A3922459A0D00A1FB7B /* FSPImageOrientation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 387379C122459A0C00A1FB7B /* FSPImageOrientation.mm */; };
+		38737A3A22459A0D00A1FB7B /* FSPImageSpecification.mm in Sources */ = {isa = PBXBuildFile; fileRef = 387379C322459A0C00A1FB7B /* FSPImageSpecification.mm */; };
+		38737A3B22459A0D00A1FB7B /* FSPImageFormat.mm in Sources */ = {isa = PBXBuildFile; fileRef = 387379C422459A0C00A1FB7B /* FSPImageFormat.mm */; };
+		38737A3C22459A0D00A1FB7B /* FSPImagePixelSpecification.mm in Sources */ = {isa = PBXBuildFile; fileRef = 387379C522459A0C00A1FB7B /* FSPImagePixelSpecification.mm */; };
+		38737A3D22459A0D00A1FB7B /* FSPOptions.mm in Sources */ = {isa = PBXBuildFile; fileRef = 387379C822459A0C00A1FB7B /* FSPOptions.mm */; };
+		38737A3E22459A0D00A1FB7B /* FSPGeometry_Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = 387379CF22459A0C00A1FB7B /* FSPGeometry_Private.mm */; };
+		38737A3F22459A0D00A1FB7B /* NSError+Spectrum_Private.mm in Sources */ = {isa = PBXBuildFile; fileRef = 387379D122459A0C00A1FB7B /* NSError+Spectrum_Private.mm */; };
+		38737A4022459A0D00A1FB7B /* FSPResult.mm in Sources */ = {isa = PBXBuildFile; fileRef = 387379E122459A0C00A1FB7B /* FSPResult.mm */; };
+		38737A4122459A0D00A1FB7B /* EncodeRequirement+SpectrumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387379E322459A0C00A1FB7B /* EncodeRequirement+SpectrumTests.swift */; };
+		38737A4222459A0D00A1FB7B /* UIImage+SSIM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387379E422459A0C00A1FB7B /* UIImage+SSIM.swift */; };
+		38737A4322459A0D00A1FB7B /* Data+SpectrumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387379E522459A0C00A1FB7B /* Data+SpectrumTests.swift */; };
+		38737A4422459A0D00A1FB7B /* TestDataPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387379E622459A0C00A1FB7B /* TestDataPath.swift */; };
+		38737A4522459A0D00A1FB7B /* XCTestCase+SpectrumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387379E822459A0C00A1FB7B /* XCTestCase+SpectrumTests.swift */; };
+		38737A4622459A0D00A1FB7B /* UIImage+Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387379E922459A0C00A1FB7B /* UIImage+Orientation.swift */; };
+		38737A4722459A0D00A1FB7B /* FSPSSIMCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 387379EB22459A0C00A1FB7B /* FSPSSIMCalculator.m */; };
+		38737A4822459A0D00A1FB7B /* Optional+ValueOr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387379EC22459A0C00A1FB7B /* Optional+ValueOr.swift */; };
+		38737A4922459A0D00A1FB7B /* FSPDefaultPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 387379F022459A0C00A1FB7B /* FSPDefaultPlugin.m */; };
+		38737A4A22459A0D00A1FB7B /* FSPWebpPlugin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 387379F322459A0C00A1FB7B /* FSPWebpPlugin.mm */; };
+		38737A4B22459A0D00A1FB7B /* FSPPngPlugin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 387379F622459A0C00A1FB7B /* FSPPngPlugin.mm */; };
+		38737A4C22459A0D00A1FB7B /* FSPJpegPlugin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 387379F822459A0C00A1FB7B /* FSPJpegPlugin.mm */; };
+		38737A4D22459A0D00A1FB7B /* FSPEncodeOptionsTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 387379FB22459A0C00A1FB7B /* FSPEncodeOptionsTests.mm */; };
+		38737A4E22459A0D00A1FB7B /* FSPInternalTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 387379FC22459A0C00A1FB7B /* FSPInternalTests.mm */; };
+		38737A4F22459A0D00A1FB7B /* FSPRotateRequirementTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 387379FD22459A0C00A1FB7B /* FSPRotateRequirementTests.mm */; };
+		38737A5022459A0D00A1FB7B /* FSPResizeRequirementTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 387379FE22459A0C00A1FB7B /* FSPResizeRequirementTests.mm */; };
+		38737A5122459A0D00A1FB7B /* FSPImageFormatTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 387379FF22459A0C00A1FB7B /* FSPImageFormatTests.mm */; };
+		38737A5222459A0D00A1FB7B /* FSPConfigurationTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 38737A0022459A0C00A1FB7B /* FSPConfigurationTests.mm */; };
+		38737A5322459A0D00A1FB7B /* FSPAbsoluteToOriginCropRequirementTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 38737A0122459A0C00A1FB7B /* FSPAbsoluteToOriginCropRequirementTests.mm */; };
+		38737A5422459A0D00A1FB7B /* FSPImageMetadataTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 38737A0222459A0C00A1FB7B /* FSPImageMetadataTests.mm */; };
+		38737A5522459A0D00A1FB7B /* FSPImageSpecificationTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 38737A0322459A0C00A1FB7B /* FSPImageSpecificationTests.mm */; };
+		38737A5622459A0D00A1FB7B /* FSPGeometryInternalTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 38737A0422459A0C00A1FB7B /* FSPGeometryInternalTests.mm */; };
+		38737A5722459A0D00A1FB7B /* FSPEncodeRequirementTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 38737A0522459A0C00A1FB7B /* FSPEncodeRequirementTests.mm */; };
+		38737A5822459A0D00A1FB7B /* FSPImagePixelSpecificationTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 38737A0622459A0C00A1FB7B /* FSPImagePixelSpecificationTests.mm */; };
+		38737A5922459A0D00A1FB7B /* FSPImageOrientationTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 38737A0722459A0C00A1FB7B /* FSPImageOrientationTests.mm */; };
+		38737A5A22459A0D00A1FB7B /* FSPSpectrumTests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 38737A0822459A0C00A1FB7B /* FSPSpectrumTests.mm */; };
+		38737A5B22459A0D00A1FB7B /* JpegJpegCroppingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38737A0A22459A0C00A1FB7B /* JpegJpegCroppingTests.swift */; };
+		38737A5C22459A0D00A1FB7B /* JpegJpegScalingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38737A0B22459A0C00A1FB7B /* JpegJpegScalingTests.swift */; };
+		38737A5D22459A0D00A1FB7B /* JpegJpegNoModificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38737A0C22459A0C00A1FB7B /* JpegJpegNoModificationTests.swift */; };
+		38737A5E22459A0D00A1FB7B /* JpegJpegReEncodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38737A0E22459A0C00A1FB7B /* JpegJpegReEncodingTests.swift */; };
+		38737A5F22459A0D00A1FB7B /* BitmapJpegNoModificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38737A0F22459A0C00A1FB7B /* BitmapJpegNoModificationTests.swift */; };
+		38737A6022459A0D00A1FB7B /* 800x530.png in Resources */ = {isa = PBXBuildFile; fileRef = 38737A1222459A0C00A1FB7B /* 800x530.png */; };
+		38737A6122459A0D00A1FB7B /* 128x85_argb.png in Resources */ = {isa = PBXBuildFile; fileRef = 38737A1322459A0C00A1FB7B /* 128x85_argb.png */; };
+		38737A6222459A0D00A1FB7B /* 128x85.png in Resources */ = {isa = PBXBuildFile; fileRef = 38737A1422459A0C00A1FB7B /* 128x85.png */; };
+		38737A6322459A0D00A1FB7B /* 16x16_transparent_argb.png in Resources */ = {isa = PBXBuildFile; fileRef = 38737A1522459A0C00A1FB7B /* 16x16_transparent_argb.png */; };
+		38737A6422459A0D00A1FB7B /* 16x16_white_q75_grayscale.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38737A1722459A0C00A1FB7B /* 16x16_white_q75_grayscale.jpg */; };
+		38737A6522459A0D00A1FB7B /* 16x16_cABCDF0_q75.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38737A1822459A0C00A1FB7B /* 16x16_cABCDF0_q75.jpg */; };
+		38737A6622459A0D00A1FB7B /* 128x85_q75_progressive.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38737A1922459A0D00A1FB7B /* 128x85_q75_progressive.jpg */; };
+		38737A6722459A0D00A1FB7B /* 128x85_q75_exif_orientation_6_baseline.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38737A1A22459A0D00A1FB7B /* 128x85_q75_exif_orientation_6_baseline.jpg */; };
+		38737A6822459A0D00A1FB7B /* 4096x2713_benchmark_large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38737A1B22459A0D00A1FB7B /* 4096x2713_benchmark_large.jpg */; };
+		38737A6922459A0D00A1FB7B /* 128x85_q75_baseline.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38737A1C22459A0D00A1FB7B /* 128x85_q75_baseline.jpg */; };
+		38737A6A22459A0D00A1FB7B /* c50px60p_center_q95.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38737A1D22459A0D00A1FB7B /* c50px60p_center_q95.jpg */; };
+		38737A6B22459A0D00A1FB7B /* 16x16_black_q75.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38737A1E22459A0D00A1FB7B /* 16x16_black_q75.jpg */; };
+		38737A6C22459A0D00A1FB7B /* 128x85_q75_grayscale.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38737A1F22459A0D00A1FB7B /* 128x85_q75_grayscale.jpg */; };
+		38737A6D22459A0D00A1FB7B /* 16x16_white_q75.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38737A2022459A0D00A1FB7B /* 16x16_white_q75.jpg */; };
+		38737A6E22459A0D00A1FB7B /* 800x530_q75_grayscale.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38737A2122459A0D00A1FB7B /* 800x530_q75_grayscale.jpg */; };
+		38737A6F22459A0D00A1FB7B /* 800x530_q75_progressive.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38737A2222459A0D00A1FB7B /* 800x530_q75_progressive.jpg */; };
+		38737A7022459A0D00A1FB7B /* 800x530_q75_baseline.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38737A2322459A0D00A1FB7B /* 800x530_q75_baseline.jpg */; };
+		38737A7122459A0D00A1FB7B /* c200x100_o100_50_q95.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38737A2422459A0D00A1FB7B /* c200x100_o100_50_q95.jpg */; };
+		38737A7222459A0D00A1FB7B /* 16x16_black_q75_grayscale.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38737A2522459A0D00A1FB7B /* 16x16_black_q75_grayscale.jpg */; };
+		38737A7322459A0D00A1FB7B /* JpegJpegRotationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38737A2622459A0D00A1FB7B /* JpegJpegRotationTests.swift */; };
+		38737A7422459A0D00A1FB7B /* PngJpegReEncodingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38737A2722459A0D00A1FB7B /* PngJpegReEncodingTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +113,136 @@
 		387373AA224596FA00A1FB7B /* ElyseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElyseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		387373AE224596FA00A1FB7B /* ElyseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElyseTests.swift; sourceTree = "<group>"; };
 		387373B0224596FA00A1FB7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3873799422459A0B00A1FB7B /* NSError+Spectrum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+Spectrum.m"; sourceTree = "<group>"; };
+		3873799522459A0B00A1FB7B /* NSError+Spectrum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+Spectrum.h"; sourceTree = "<group>"; };
+		3873799722459A0B00A1FB7B /* FSPConfigurationJpeg.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPConfigurationJpeg.mm; sourceTree = "<group>"; };
+		3873799822459A0B00A1FB7B /* FSPConfigurationWebp.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPConfigurationWebp.mm; sourceTree = "<group>"; };
+		3873799922459A0B00A1FB7B /* FSPConfigurationGeneral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPConfigurationGeneral.h; sourceTree = "<group>"; };
+		3873799A22459A0B00A1FB7B /* FSPConfigurationJpeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPConfigurationJpeg.h; sourceTree = "<group>"; };
+		3873799B22459A0B00A1FB7B /* FSPConfiguration.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPConfiguration.mm; sourceTree = "<group>"; };
+		3873799C22459A0B00A1FB7B /* FSPConfigurationPng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPConfigurationPng.h; sourceTree = "<group>"; };
+		3873799D22459A0B00A1FB7B /* FSPConfigurationGeneral.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPConfigurationGeneral.mm; sourceTree = "<group>"; };
+		3873799E22459A0B00A1FB7B /* FSPConfigurationPng.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPConfigurationPng.mm; sourceTree = "<group>"; };
+		3873799F22459A0B00A1FB7B /* FSPConfigurationWebp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPConfigurationWebp.h; sourceTree = "<group>"; };
+		387379A022459A0B00A1FB7B /* FSPConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPConfiguration.h; sourceTree = "<group>"; };
+		387379A122459A0B00A1FB7B /* SpectrumKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpectrumKit.h; sourceTree = "<group>"; };
+		387379A222459A0B00A1FB7B /* FSPTransformations.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPTransformations.mm; sourceTree = "<group>"; };
+		387379A322459A0B00A1FB7B /* FSPResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPResult.h; sourceTree = "<group>"; };
+		387379A422459A0B00A1FB7B /* FSPSpectrum.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPSpectrum.mm; sourceTree = "<group>"; };
+		387379A622459A0B00A1FB7B /* OutputStreamImageSink.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OutputStreamImageSink.mm; sourceTree = "<group>"; };
+		387379A722459A0B00A1FB7B /* InputStreamImageSource.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = InputStreamImageSource.mm; sourceTree = "<group>"; };
+		387379A822459A0B00A1FB7B /* BitmapImageSource.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BitmapImageSource.mm; sourceTree = "<group>"; };
+		387379A922459A0B00A1FB7B /* BitmapImageSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapImageSource.h; sourceTree = "<group>"; };
+		387379AA22459A0B00A1FB7B /* OutputStreamImageSink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutputStreamImageSink.h; sourceTree = "<group>"; };
+		387379AB22459A0B00A1FB7B /* InputStreamImageSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputStreamImageSource.h; sourceTree = "<group>"; };
+		387379AC22459A0B00A1FB7B /* FSPPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPPlugin.h; sourceTree = "<group>"; };
+		387379AE22459A0B00A1FB7B /* FSPLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPLog.h; sourceTree = "<group>"; };
+		387379AF22459A0C00A1FB7B /* FSPTransformations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPTransformations.h; sourceTree = "<group>"; };
+		387379B122459A0C00A1FB7B /* FSPEncodeRequirement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPEncodeRequirement.h; sourceTree = "<group>"; };
+		387379B222459A0C00A1FB7B /* FSPRotateRequirement.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPRotateRequirement.mm; sourceTree = "<group>"; };
+		387379B322459A0C00A1FB7B /* FSPAbsoluteToOriginCropRequirement.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPAbsoluteToOriginCropRequirement.mm; sourceTree = "<group>"; };
+		387379B422459A0C00A1FB7B /* FSPRelativeToOriginCropRequirement.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPRelativeToOriginCropRequirement.mm; sourceTree = "<group>"; };
+		387379B522459A0C00A1FB7B /* FSPCropRequirementProviding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPCropRequirementProviding.h; sourceTree = "<group>"; };
+		387379B622459A0C00A1FB7B /* FSPEncodeRequirement.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPEncodeRequirement.mm; sourceTree = "<group>"; };
+		387379B722459A0C00A1FB7B /* FSPRelativeToOriginCropRequirement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPRelativeToOriginCropRequirement.h; sourceTree = "<group>"; };
+		387379B822459A0C00A1FB7B /* FSPResizeRequirement.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPResizeRequirement.mm; sourceTree = "<group>"; };
+		387379B922459A0C00A1FB7B /* FSPRotateRequirement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPRotateRequirement.h; sourceTree = "<group>"; };
+		387379BA22459A0C00A1FB7B /* FSPAbsoluteToOriginCropRequirement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPAbsoluteToOriginCropRequirement.h; sourceTree = "<group>"; };
+		387379BB22459A0C00A1FB7B /* FSPResizeRequirement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPResizeRequirement.h; sourceTree = "<group>"; };
+		387379BD22459A0C00A1FB7B /* FSPImageMetadata.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPImageMetadata.mm; sourceTree = "<group>"; };
+		387379BE22459A0C00A1FB7B /* FSPImageMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPImageMetadata.h; sourceTree = "<group>"; };
+		387379BF22459A0C00A1FB7B /* FSPImageSpecification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPImageSpecification.h; sourceTree = "<group>"; };
+		387379C022459A0C00A1FB7B /* FSPImageOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPImageOrientation.h; sourceTree = "<group>"; };
+		387379C122459A0C00A1FB7B /* FSPImageOrientation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPImageOrientation.mm; sourceTree = "<group>"; };
+		387379C222459A0C00A1FB7B /* FSPImageFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPImageFormat.h; sourceTree = "<group>"; };
+		387379C322459A0C00A1FB7B /* FSPImageSpecification.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPImageSpecification.mm; sourceTree = "<group>"; };
+		387379C422459A0C00A1FB7B /* FSPImageFormat.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPImageFormat.mm; sourceTree = "<group>"; };
+		387379C522459A0C00A1FB7B /* FSPImagePixelSpecification.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPImagePixelSpecification.mm; sourceTree = "<group>"; };
+		387379C622459A0C00A1FB7B /* FSPImagePixelSpecification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPImagePixelSpecification.h; sourceTree = "<group>"; };
+		387379C722459A0C00A1FB7B /* FSPOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPOptions.h; sourceTree = "<group>"; };
+		387379C822459A0C00A1FB7B /* FSPOptions.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPOptions.mm; sourceTree = "<group>"; };
+		387379CA22459A0C00A1FB7B /* FSPTransformations_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPTransformations_Private.h; sourceTree = "<group>"; };
+		387379CB22459A0C00A1FB7B /* NSError+Spectrum_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+Spectrum_Private.h"; sourceTree = "<group>"; };
+		387379CC22459A0C00A1FB7B /* FSPOptions_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPOptions_Private.h; sourceTree = "<group>"; };
+		387379CD22459A0C00A1FB7B /* FSPEncodeRequirement_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPEncodeRequirement_Private.h; sourceTree = "<group>"; };
+		387379CE22459A0C00A1FB7B /* FSPResizeRequirement_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPResizeRequirement_Private.h; sourceTree = "<group>"; };
+		387379CF22459A0C00A1FB7B /* FSPGeometry_Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPGeometry_Private.mm; sourceTree = "<group>"; };
+		387379D022459A0C00A1FB7B /* FSPImageSpecification_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPImageSpecification_Private.h; sourceTree = "<group>"; };
+		387379D122459A0C00A1FB7B /* NSError+Spectrum_Private.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "NSError+Spectrum_Private.mm"; sourceTree = "<group>"; };
+		387379D222459A0C00A1FB7B /* FSPCropRequirementProviding_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPCropRequirementProviding_Private.h; sourceTree = "<group>"; };
+		387379D322459A0C00A1FB7B /* FSPImageFormat_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPImageFormat_Private.h; sourceTree = "<group>"; };
+		387379D422459A0C00A1FB7B /* FSPConfiguration_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPConfiguration_Private.h; sourceTree = "<group>"; };
+		387379D522459A0C00A1FB7B /* FSPImageMetadata_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPImageMetadata_Private.h; sourceTree = "<group>"; };
+		387379D622459A0C00A1FB7B /* FSPGeometry_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPGeometry_Private.h; sourceTree = "<group>"; };
+		387379D722459A0C00A1FB7B /* FSPRotateRequirement_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPRotateRequirement_Private.h; sourceTree = "<group>"; };
+		387379D822459A0C00A1FB7B /* FSPPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPPrivate.h; sourceTree = "<group>"; };
+		387379D922459A0C00A1FB7B /* FSPImageOrientation_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPImageOrientation_Private.h; sourceTree = "<group>"; };
+		387379DA22459A0C00A1FB7B /* FSPResult_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPResult_Private.h; sourceTree = "<group>"; };
+		387379DB22459A0C00A1FB7B /* FSPTranscodeOptions_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPTranscodeOptions_Private.h; sourceTree = "<group>"; };
+		387379DC22459A0C00A1FB7B /* FSPImagePixelSpecification_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPImagePixelSpecification_Private.h; sourceTree = "<group>"; };
+		387379DD22459A0C00A1FB7B /* FSPPlugin_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPPlugin_Private.h; sourceTree = "<group>"; };
+		387379DE22459A0C00A1FB7B /* FSPSpectrum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPSpectrum.h; sourceTree = "<group>"; };
+		387379E022459A0C00A1FB7B /* FSPLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPLog.h; sourceTree = "<group>"; };
+		387379E122459A0C00A1FB7B /* FSPResult.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPResult.mm; sourceTree = "<group>"; };
+		387379E322459A0C00A1FB7B /* EncodeRequirement+SpectrumTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "EncodeRequirement+SpectrumTests.swift"; sourceTree = "<group>"; };
+		387379E422459A0C00A1FB7B /* UIImage+SSIM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+SSIM.swift"; sourceTree = "<group>"; };
+		387379E522459A0C00A1FB7B /* Data+SpectrumTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+SpectrumTests.swift"; sourceTree = "<group>"; };
+		387379E622459A0C00A1FB7B /* TestDataPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestDataPath.swift; sourceTree = "<group>"; };
+		387379E722459A0C00A1FB7B /* FSPSSIMCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPSSIMCalculator.h; sourceTree = "<group>"; };
+		387379E822459A0C00A1FB7B /* XCTestCase+SpectrumTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "XCTestCase+SpectrumTests.swift"; sourceTree = "<group>"; };
+		387379E922459A0C00A1FB7B /* UIImage+Orientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Orientation.swift"; sourceTree = "<group>"; };
+		387379EA22459A0C00A1FB7B /* SpectrumKitInstrumentationTestsHelpers-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SpectrumKitInstrumentationTestsHelpers-Bridging-Header.h"; sourceTree = "<group>"; };
+		387379EB22459A0C00A1FB7B /* FSPSSIMCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPSSIMCalculator.m; sourceTree = "<group>"; };
+		387379EC22459A0C00A1FB7B /* Optional+ValueOr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Optional+ValueOr.swift"; sourceTree = "<group>"; };
+		387379EF22459A0C00A1FB7B /* FSPDefaultPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPDefaultPlugin.h; sourceTree = "<group>"; };
+		387379F022459A0C00A1FB7B /* FSPDefaultPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSPDefaultPlugin.m; sourceTree = "<group>"; };
+		387379F222459A0C00A1FB7B /* FSPWebpPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPWebpPlugin.h; sourceTree = "<group>"; };
+		387379F322459A0C00A1FB7B /* FSPWebpPlugin.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPWebpPlugin.mm; sourceTree = "<group>"; };
+		387379F522459A0C00A1FB7B /* FSPPngPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPPngPlugin.h; sourceTree = "<group>"; };
+		387379F622459A0C00A1FB7B /* FSPPngPlugin.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPPngPlugin.mm; sourceTree = "<group>"; };
+		387379F822459A0C00A1FB7B /* FSPJpegPlugin.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPJpegPlugin.mm; sourceTree = "<group>"; };
+		387379F922459A0C00A1FB7B /* FSPJpegPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSPJpegPlugin.h; sourceTree = "<group>"; };
+		387379FB22459A0C00A1FB7B /* FSPEncodeOptionsTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPEncodeOptionsTests.mm; sourceTree = "<group>"; };
+		387379FC22459A0C00A1FB7B /* FSPInternalTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPInternalTests.mm; sourceTree = "<group>"; };
+		387379FD22459A0C00A1FB7B /* FSPRotateRequirementTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPRotateRequirementTests.mm; sourceTree = "<group>"; };
+		387379FE22459A0C00A1FB7B /* FSPResizeRequirementTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPResizeRequirementTests.mm; sourceTree = "<group>"; };
+		387379FF22459A0C00A1FB7B /* FSPImageFormatTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPImageFormatTests.mm; sourceTree = "<group>"; };
+		38737A0022459A0C00A1FB7B /* FSPConfigurationTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPConfigurationTests.mm; sourceTree = "<group>"; };
+		38737A0122459A0C00A1FB7B /* FSPAbsoluteToOriginCropRequirementTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPAbsoluteToOriginCropRequirementTests.mm; sourceTree = "<group>"; };
+		38737A0222459A0C00A1FB7B /* FSPImageMetadataTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPImageMetadataTests.mm; sourceTree = "<group>"; };
+		38737A0322459A0C00A1FB7B /* FSPImageSpecificationTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPImageSpecificationTests.mm; sourceTree = "<group>"; };
+		38737A0422459A0C00A1FB7B /* FSPGeometryInternalTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPGeometryInternalTests.mm; sourceTree = "<group>"; };
+		38737A0522459A0C00A1FB7B /* FSPEncodeRequirementTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPEncodeRequirementTests.mm; sourceTree = "<group>"; };
+		38737A0622459A0C00A1FB7B /* FSPImagePixelSpecificationTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPImagePixelSpecificationTests.mm; sourceTree = "<group>"; };
+		38737A0722459A0C00A1FB7B /* FSPImageOrientationTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPImageOrientationTests.mm; sourceTree = "<group>"; };
+		38737A0822459A0C00A1FB7B /* FSPSpectrumTests.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FSPSpectrumTests.mm; sourceTree = "<group>"; };
+		38737A0A22459A0C00A1FB7B /* JpegJpegCroppingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JpegJpegCroppingTests.swift; sourceTree = "<group>"; };
+		38737A0B22459A0C00A1FB7B /* JpegJpegScalingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JpegJpegScalingTests.swift; sourceTree = "<group>"; };
+		38737A0C22459A0C00A1FB7B /* JpegJpegNoModificationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JpegJpegNoModificationTests.swift; sourceTree = "<group>"; };
+		38737A0D22459A0C00A1FB7B /* SpectrumKitInstrumentationTests-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SpectrumKitInstrumentationTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		38737A0E22459A0C00A1FB7B /* JpegJpegReEncodingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JpegJpegReEncodingTests.swift; sourceTree = "<group>"; };
+		38737A0F22459A0C00A1FB7B /* BitmapJpegNoModificationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitmapJpegNoModificationTests.swift; sourceTree = "<group>"; };
+		38737A1222459A0C00A1FB7B /* 800x530.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 800x530.png; sourceTree = "<group>"; };
+		38737A1322459A0C00A1FB7B /* 128x85_argb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 128x85_argb.png; sourceTree = "<group>"; };
+		38737A1422459A0C00A1FB7B /* 128x85.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 128x85.png; sourceTree = "<group>"; };
+		38737A1522459A0C00A1FB7B /* 16x16_transparent_argb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 16x16_transparent_argb.png; sourceTree = "<group>"; };
+		38737A1722459A0C00A1FB7B /* 16x16_white_q75_grayscale.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16x16_white_q75_grayscale.jpg; sourceTree = "<group>"; };
+		38737A1822459A0C00A1FB7B /* 16x16_cABCDF0_q75.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16x16_cABCDF0_q75.jpg; sourceTree = "<group>"; };
+		38737A1922459A0D00A1FB7B /* 128x85_q75_progressive.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 128x85_q75_progressive.jpg; sourceTree = "<group>"; };
+		38737A1A22459A0D00A1FB7B /* 128x85_q75_exif_orientation_6_baseline.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 128x85_q75_exif_orientation_6_baseline.jpg; sourceTree = "<group>"; };
+		38737A1B22459A0D00A1FB7B /* 4096x2713_benchmark_large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4096x2713_benchmark_large.jpg; sourceTree = "<group>"; };
+		38737A1C22459A0D00A1FB7B /* 128x85_q75_baseline.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 128x85_q75_baseline.jpg; sourceTree = "<group>"; };
+		38737A1D22459A0D00A1FB7B /* c50px60p_center_q95.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c50px60p_center_q95.jpg; sourceTree = "<group>"; };
+		38737A1E22459A0D00A1FB7B /* 16x16_black_q75.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16x16_black_q75.jpg; sourceTree = "<group>"; };
+		38737A1F22459A0D00A1FB7B /* 128x85_q75_grayscale.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 128x85_q75_grayscale.jpg; sourceTree = "<group>"; };
+		38737A2022459A0D00A1FB7B /* 16x16_white_q75.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16x16_white_q75.jpg; sourceTree = "<group>"; };
+		38737A2122459A0D00A1FB7B /* 800x530_q75_grayscale.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 800x530_q75_grayscale.jpg; sourceTree = "<group>"; };
+		38737A2222459A0D00A1FB7B /* 800x530_q75_progressive.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 800x530_q75_progressive.jpg; sourceTree = "<group>"; };
+		38737A2322459A0D00A1FB7B /* 800x530_q75_baseline.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 800x530_q75_baseline.jpg; sourceTree = "<group>"; };
+		38737A2422459A0D00A1FB7B /* c200x100_o100_50_q95.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c200x100_o100_50_q95.jpg; sourceTree = "<group>"; };
+		38737A2522459A0D00A1FB7B /* 16x16_black_q75_grayscale.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16x16_black_q75_grayscale.jpg; sourceTree = "<group>"; };
+		38737A2622459A0D00A1FB7B /* JpegJpegRotationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JpegJpegRotationTests.swift; sourceTree = "<group>"; };
+		38737A2722459A0D00A1FB7B /* PngJpegReEncodingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PngJpegReEncodingTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +307,298 @@
 		387373B92245971800A1FB7B /* Spectrum */ = {
 			isa = PBXGroup;
 			children = (
+				3873799222459A0B00A1FB7B /* SpectrumKit */,
+				38737A0922459A0C00A1FB7B /* SpectrumKitInstrumentationTests */,
+				387379E222459A0C00A1FB7B /* SpectrumKitInstrumentationTestsHelpers */,
+				387379ED22459A0C00A1FB7B /* SpectrumKitPlugins */,
+				387379FA22459A0C00A1FB7B /* SpectrumKitTests */,
 			);
 			path = Spectrum;
+			sourceTree = "<group>";
+		};
+		3873799222459A0B00A1FB7B /* SpectrumKit */ = {
+			isa = PBXGroup;
+			children = (
+				3873799322459A0B00A1FB7B /* Misc */,
+				3873799622459A0B00A1FB7B /* Configuration */,
+				387379A122459A0B00A1FB7B /* SpectrumKit.h */,
+				387379A222459A0B00A1FB7B /* FSPTransformations.mm */,
+				387379A322459A0B00A1FB7B /* FSPResult.h */,
+				387379A422459A0B00A1FB7B /* FSPSpectrum.mm */,
+				387379A522459A0B00A1FB7B /* IO */,
+				387379AC22459A0B00A1FB7B /* FSPPlugin.h */,
+				387379AD22459A0B00A1FB7B /* Internal */,
+				387379AF22459A0C00A1FB7B /* FSPTransformations.h */,
+				387379B022459A0C00A1FB7B /* Requirements */,
+				387379BC22459A0C00A1FB7B /* Image */,
+				387379C722459A0C00A1FB7B /* FSPOptions.h */,
+				387379C822459A0C00A1FB7B /* FSPOptions.mm */,
+				387379C922459A0C00A1FB7B /* Private */,
+				387379DE22459A0C00A1FB7B /* FSPSpectrum.h */,
+				387379DF22459A0C00A1FB7B /* External */,
+				387379E122459A0C00A1FB7B /* FSPResult.mm */,
+			);
+			path = SpectrumKit;
+			sourceTree = "<group>";
+		};
+		3873799322459A0B00A1FB7B /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				3873799422459A0B00A1FB7B /* NSError+Spectrum.m */,
+				3873799522459A0B00A1FB7B /* NSError+Spectrum.h */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
+		3873799622459A0B00A1FB7B /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				3873799722459A0B00A1FB7B /* FSPConfigurationJpeg.mm */,
+				3873799822459A0B00A1FB7B /* FSPConfigurationWebp.mm */,
+				3873799922459A0B00A1FB7B /* FSPConfigurationGeneral.h */,
+				3873799A22459A0B00A1FB7B /* FSPConfigurationJpeg.h */,
+				3873799B22459A0B00A1FB7B /* FSPConfiguration.mm */,
+				3873799C22459A0B00A1FB7B /* FSPConfigurationPng.h */,
+				3873799D22459A0B00A1FB7B /* FSPConfigurationGeneral.mm */,
+				3873799E22459A0B00A1FB7B /* FSPConfigurationPng.mm */,
+				3873799F22459A0B00A1FB7B /* FSPConfigurationWebp.h */,
+				387379A022459A0B00A1FB7B /* FSPConfiguration.h */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		387379A522459A0B00A1FB7B /* IO */ = {
+			isa = PBXGroup;
+			children = (
+				387379A622459A0B00A1FB7B /* OutputStreamImageSink.mm */,
+				387379A722459A0B00A1FB7B /* InputStreamImageSource.mm */,
+				387379A822459A0B00A1FB7B /* BitmapImageSource.mm */,
+				387379A922459A0B00A1FB7B /* BitmapImageSource.h */,
+				387379AA22459A0B00A1FB7B /* OutputStreamImageSink.h */,
+				387379AB22459A0B00A1FB7B /* InputStreamImageSource.h */,
+			);
+			path = IO;
+			sourceTree = "<group>";
+		};
+		387379AD22459A0B00A1FB7B /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				387379AE22459A0B00A1FB7B /* FSPLog.h */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		387379B022459A0C00A1FB7B /* Requirements */ = {
+			isa = PBXGroup;
+			children = (
+				387379B122459A0C00A1FB7B /* FSPEncodeRequirement.h */,
+				387379B222459A0C00A1FB7B /* FSPRotateRequirement.mm */,
+				387379B322459A0C00A1FB7B /* FSPAbsoluteToOriginCropRequirement.mm */,
+				387379B422459A0C00A1FB7B /* FSPRelativeToOriginCropRequirement.mm */,
+				387379B522459A0C00A1FB7B /* FSPCropRequirementProviding.h */,
+				387379B622459A0C00A1FB7B /* FSPEncodeRequirement.mm */,
+				387379B722459A0C00A1FB7B /* FSPRelativeToOriginCropRequirement.h */,
+				387379B822459A0C00A1FB7B /* FSPResizeRequirement.mm */,
+				387379B922459A0C00A1FB7B /* FSPRotateRequirement.h */,
+				387379BA22459A0C00A1FB7B /* FSPAbsoluteToOriginCropRequirement.h */,
+				387379BB22459A0C00A1FB7B /* FSPResizeRequirement.h */,
+			);
+			path = Requirements;
+			sourceTree = "<group>";
+		};
+		387379BC22459A0C00A1FB7B /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				387379BD22459A0C00A1FB7B /* FSPImageMetadata.mm */,
+				387379BE22459A0C00A1FB7B /* FSPImageMetadata.h */,
+				387379BF22459A0C00A1FB7B /* FSPImageSpecification.h */,
+				387379C022459A0C00A1FB7B /* FSPImageOrientation.h */,
+				387379C122459A0C00A1FB7B /* FSPImageOrientation.mm */,
+				387379C222459A0C00A1FB7B /* FSPImageFormat.h */,
+				387379C322459A0C00A1FB7B /* FSPImageSpecification.mm */,
+				387379C422459A0C00A1FB7B /* FSPImageFormat.mm */,
+				387379C522459A0C00A1FB7B /* FSPImagePixelSpecification.mm */,
+				387379C622459A0C00A1FB7B /* FSPImagePixelSpecification.h */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		387379C922459A0C00A1FB7B /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				387379CA22459A0C00A1FB7B /* FSPTransformations_Private.h */,
+				387379CB22459A0C00A1FB7B /* NSError+Spectrum_Private.h */,
+				387379CC22459A0C00A1FB7B /* FSPOptions_Private.h */,
+				387379CD22459A0C00A1FB7B /* FSPEncodeRequirement_Private.h */,
+				387379CE22459A0C00A1FB7B /* FSPResizeRequirement_Private.h */,
+				387379CF22459A0C00A1FB7B /* FSPGeometry_Private.mm */,
+				387379D022459A0C00A1FB7B /* FSPImageSpecification_Private.h */,
+				387379D122459A0C00A1FB7B /* NSError+Spectrum_Private.mm */,
+				387379D222459A0C00A1FB7B /* FSPCropRequirementProviding_Private.h */,
+				387379D322459A0C00A1FB7B /* FSPImageFormat_Private.h */,
+				387379D422459A0C00A1FB7B /* FSPConfiguration_Private.h */,
+				387379D522459A0C00A1FB7B /* FSPImageMetadata_Private.h */,
+				387379D622459A0C00A1FB7B /* FSPGeometry_Private.h */,
+				387379D722459A0C00A1FB7B /* FSPRotateRequirement_Private.h */,
+				387379D822459A0C00A1FB7B /* FSPPrivate.h */,
+				387379D922459A0C00A1FB7B /* FSPImageOrientation_Private.h */,
+				387379DA22459A0C00A1FB7B /* FSPResult_Private.h */,
+				387379DB22459A0C00A1FB7B /* FSPTranscodeOptions_Private.h */,
+				387379DC22459A0C00A1FB7B /* FSPImagePixelSpecification_Private.h */,
+				387379DD22459A0C00A1FB7B /* FSPPlugin_Private.h */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		387379DF22459A0C00A1FB7B /* External */ = {
+			isa = PBXGroup;
+			children = (
+				387379E022459A0C00A1FB7B /* FSPLog.h */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		387379E222459A0C00A1FB7B /* SpectrumKitInstrumentationTestsHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				387379E322459A0C00A1FB7B /* EncodeRequirement+SpectrumTests.swift */,
+				387379E422459A0C00A1FB7B /* UIImage+SSIM.swift */,
+				387379E522459A0C00A1FB7B /* Data+SpectrumTests.swift */,
+				387379E622459A0C00A1FB7B /* TestDataPath.swift */,
+				387379E722459A0C00A1FB7B /* FSPSSIMCalculator.h */,
+				387379E822459A0C00A1FB7B /* XCTestCase+SpectrumTests.swift */,
+				387379E922459A0C00A1FB7B /* UIImage+Orientation.swift */,
+				387379EA22459A0C00A1FB7B /* SpectrumKitInstrumentationTestsHelpers-Bridging-Header.h */,
+				387379EB22459A0C00A1FB7B /* FSPSSIMCalculator.m */,
+				387379EC22459A0C00A1FB7B /* Optional+ValueOr.swift */,
+			);
+			path = SpectrumKitInstrumentationTestsHelpers;
+			sourceTree = "<group>";
+		};
+		387379ED22459A0C00A1FB7B /* SpectrumKitPlugins */ = {
+			isa = PBXGroup;
+			children = (
+				387379EE22459A0C00A1FB7B /* Default */,
+				387379F122459A0C00A1FB7B /* Webp */,
+				387379F422459A0C00A1FB7B /* Png */,
+				387379F722459A0C00A1FB7B /* Jpeg */,
+			);
+			path = SpectrumKitPlugins;
+			sourceTree = "<group>";
+		};
+		387379EE22459A0C00A1FB7B /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				387379EF22459A0C00A1FB7B /* FSPDefaultPlugin.h */,
+				387379F022459A0C00A1FB7B /* FSPDefaultPlugin.m */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
+		387379F122459A0C00A1FB7B /* Webp */ = {
+			isa = PBXGroup;
+			children = (
+				387379F222459A0C00A1FB7B /* FSPWebpPlugin.h */,
+				387379F322459A0C00A1FB7B /* FSPWebpPlugin.mm */,
+			);
+			path = Webp;
+			sourceTree = "<group>";
+		};
+		387379F422459A0C00A1FB7B /* Png */ = {
+			isa = PBXGroup;
+			children = (
+				387379F522459A0C00A1FB7B /* FSPPngPlugin.h */,
+				387379F622459A0C00A1FB7B /* FSPPngPlugin.mm */,
+			);
+			path = Png;
+			sourceTree = "<group>";
+		};
+		387379F722459A0C00A1FB7B /* Jpeg */ = {
+			isa = PBXGroup;
+			children = (
+				387379F822459A0C00A1FB7B /* FSPJpegPlugin.mm */,
+				387379F922459A0C00A1FB7B /* FSPJpegPlugin.h */,
+			);
+			path = Jpeg;
+			sourceTree = "<group>";
+		};
+		387379FA22459A0C00A1FB7B /* SpectrumKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				387379FB22459A0C00A1FB7B /* FSPEncodeOptionsTests.mm */,
+				387379FC22459A0C00A1FB7B /* FSPInternalTests.mm */,
+				387379FD22459A0C00A1FB7B /* FSPRotateRequirementTests.mm */,
+				387379FE22459A0C00A1FB7B /* FSPResizeRequirementTests.mm */,
+				387379FF22459A0C00A1FB7B /* FSPImageFormatTests.mm */,
+				38737A0022459A0C00A1FB7B /* FSPConfigurationTests.mm */,
+				38737A0122459A0C00A1FB7B /* FSPAbsoluteToOriginCropRequirementTests.mm */,
+				38737A0222459A0C00A1FB7B /* FSPImageMetadataTests.mm */,
+				38737A0322459A0C00A1FB7B /* FSPImageSpecificationTests.mm */,
+				38737A0422459A0C00A1FB7B /* FSPGeometryInternalTests.mm */,
+				38737A0522459A0C00A1FB7B /* FSPEncodeRequirementTests.mm */,
+				38737A0622459A0C00A1FB7B /* FSPImagePixelSpecificationTests.mm */,
+				38737A0722459A0C00A1FB7B /* FSPImageOrientationTests.mm */,
+				38737A0822459A0C00A1FB7B /* FSPSpectrumTests.mm */,
+			);
+			path = SpectrumKitTests;
+			sourceTree = "<group>";
+		};
+		38737A0922459A0C00A1FB7B /* SpectrumKitInstrumentationTests */ = {
+			isa = PBXGroup;
+			children = (
+				38737A0A22459A0C00A1FB7B /* JpegJpegCroppingTests.swift */,
+				38737A0B22459A0C00A1FB7B /* JpegJpegScalingTests.swift */,
+				38737A0C22459A0C00A1FB7B /* JpegJpegNoModificationTests.swift */,
+				38737A0D22459A0C00A1FB7B /* SpectrumKitInstrumentationTests-Bridging-Header.h */,
+				38737A0E22459A0C00A1FB7B /* JpegJpegReEncodingTests.swift */,
+				38737A0F22459A0C00A1FB7B /* BitmapJpegNoModificationTests.swift */,
+				38737A1022459A0C00A1FB7B /* assets */,
+				38737A2622459A0D00A1FB7B /* JpegJpegRotationTests.swift */,
+				38737A2722459A0D00A1FB7B /* PngJpegReEncodingTests.swift */,
+			);
+			path = SpectrumKitInstrumentationTests;
+			sourceTree = "<group>";
+		};
+		38737A1022459A0C00A1FB7B /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				38737A1122459A0C00A1FB7B /* png */,
+				38737A1622459A0C00A1FB7B /* jpeg */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		38737A1122459A0C00A1FB7B /* png */ = {
+			isa = PBXGroup;
+			children = (
+				38737A1222459A0C00A1FB7B /* 800x530.png */,
+				38737A1322459A0C00A1FB7B /* 128x85_argb.png */,
+				38737A1422459A0C00A1FB7B /* 128x85.png */,
+				38737A1522459A0C00A1FB7B /* 16x16_transparent_argb.png */,
+			);
+			path = png;
+			sourceTree = "<group>";
+		};
+		38737A1622459A0C00A1FB7B /* jpeg */ = {
+			isa = PBXGroup;
+			children = (
+				38737A1722459A0C00A1FB7B /* 16x16_white_q75_grayscale.jpg */,
+				38737A1822459A0C00A1FB7B /* 16x16_cABCDF0_q75.jpg */,
+				38737A1922459A0D00A1FB7B /* 128x85_q75_progressive.jpg */,
+				38737A1A22459A0D00A1FB7B /* 128x85_q75_exif_orientation_6_baseline.jpg */,
+				38737A1B22459A0D00A1FB7B /* 4096x2713_benchmark_large.jpg */,
+				38737A1C22459A0D00A1FB7B /* 128x85_q75_baseline.jpg */,
+				38737A1D22459A0D00A1FB7B /* c50px60p_center_q95.jpg */,
+				38737A1E22459A0D00A1FB7B /* 16x16_black_q75.jpg */,
+				38737A1F22459A0D00A1FB7B /* 128x85_q75_grayscale.jpg */,
+				38737A2022459A0D00A1FB7B /* 16x16_white_q75.jpg */,
+				38737A2122459A0D00A1FB7B /* 800x530_q75_grayscale.jpg */,
+				38737A2222459A0D00A1FB7B /* 800x530_q75_progressive.jpg */,
+				38737A2322459A0D00A1FB7B /* 800x530_q75_baseline.jpg */,
+				38737A2422459A0D00A1FB7B /* c200x100_o100_50_q95.jpg */,
+				38737A2522459A0D00A1FB7B /* 16x16_black_q75_grayscale.jpg */,
+			);
+			path = jpeg;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,9 +682,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38737A6822459A0D00A1FB7B /* 4096x2713_benchmark_large.jpg in Resources */,
+				38737A6922459A0D00A1FB7B /* 128x85_q75_baseline.jpg in Resources */,
+				38737A6F22459A0D00A1FB7B /* 800x530_q75_progressive.jpg in Resources */,
+				38737A6B22459A0D00A1FB7B /* 16x16_black_q75.jpg in Resources */,
+				38737A6422459A0D00A1FB7B /* 16x16_white_q75_grayscale.jpg in Resources */,
+				38737A7022459A0D00A1FB7B /* 800x530_q75_baseline.jpg in Resources */,
+				38737A6622459A0D00A1FB7B /* 128x85_q75_progressive.jpg in Resources */,
+				38737A6322459A0D00A1FB7B /* 16x16_transparent_argb.png in Resources */,
+				38737A6722459A0D00A1FB7B /* 128x85_q75_exif_orientation_6_baseline.jpg in Resources */,
 				387373A4224596FA00A1FB7B /* LaunchScreen.storyboard in Resources */,
 				387373A1224596FA00A1FB7B /* Assets.xcassets in Resources */,
+				38737A6122459A0D00A1FB7B /* 128x85_argb.png in Resources */,
+				38737A6D22459A0D00A1FB7B /* 16x16_white_q75.jpg in Resources */,
+				38737A6522459A0D00A1FB7B /* 16x16_cABCDF0_q75.jpg in Resources */,
+				38737A6A22459A0D00A1FB7B /* c50px60p_center_q95.jpg in Resources */,
+				38737A6022459A0D00A1FB7B /* 800x530.png in Resources */,
+				38737A7122459A0D00A1FB7B /* c200x100_o100_50_q95.jpg in Resources */,
+				38737A6C22459A0D00A1FB7B /* 128x85_q75_grayscale.jpg in Resources */,
+				38737A7222459A0D00A1FB7B /* 16x16_black_q75_grayscale.jpg in Resources */,
 				3873739F224596F700A1FB7B /* Main.storyboard in Resources */,
+				38737A6E22459A0D00A1FB7B /* 800x530_q75_grayscale.jpg in Resources */,
+				38737A6222459A0D00A1FB7B /* 128x85.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,8 +721,66 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38737A2F22459A0D00A1FB7B /* FSPSpectrum.mm in Sources */,
+				38737A4522459A0D00A1FB7B /* XCTestCase+SpectrumTests.swift in Sources */,
+				38737A4F22459A0D00A1FB7B /* FSPRotateRequirementTests.mm in Sources */,
+				38737A3422459A0D00A1FB7B /* FSPAbsoluteToOriginCropRequirement.mm in Sources */,
+				38737A4E22459A0D00A1FB7B /* FSPInternalTests.mm in Sources */,
+				38737A4722459A0D00A1FB7B /* FSPSSIMCalculator.m in Sources */,
+				38737A4A22459A0D00A1FB7B /* FSPWebpPlugin.mm in Sources */,
+				38737A5B22459A0D00A1FB7B /* JpegJpegCroppingTests.swift in Sources */,
+				38737A3D22459A0D00A1FB7B /* FSPOptions.mm in Sources */,
+				38737A4D22459A0D00A1FB7B /* FSPEncodeOptionsTests.mm in Sources */,
+				38737A3522459A0D00A1FB7B /* FSPRelativeToOriginCropRequirement.mm in Sources */,
+				38737A3C22459A0D00A1FB7B /* FSPImagePixelSpecification.mm in Sources */,
+				38737A5322459A0D00A1FB7B /* FSPAbsoluteToOriginCropRequirementTests.mm in Sources */,
 				3873739C224596F700A1FB7B /* ViewController.swift in Sources */,
+				38737A3B22459A0D00A1FB7B /* FSPImageFormat.mm in Sources */,
+				38737A4022459A0D00A1FB7B /* FSPResult.mm in Sources */,
+				38737A2822459A0D00A1FB7B /* NSError+Spectrum.m in Sources */,
+				38737A5C22459A0D00A1FB7B /* JpegJpegScalingTests.swift in Sources */,
+				38737A5D22459A0D00A1FB7B /* JpegJpegNoModificationTests.swift in Sources */,
+				38737A3022459A0D00A1FB7B /* OutputStreamImageSink.mm in Sources */,
+				38737A5A22459A0D00A1FB7B /* FSPSpectrumTests.mm in Sources */,
+				38737A5F22459A0D00A1FB7B /* BitmapJpegNoModificationTests.swift in Sources */,
+				38737A4422459A0D00A1FB7B /* TestDataPath.swift in Sources */,
+				38737A3A22459A0D00A1FB7B /* FSPImageSpecification.mm in Sources */,
+				38737A3F22459A0D00A1FB7B /* NSError+Spectrum_Private.mm in Sources */,
+				38737A4122459A0D00A1FB7B /* EncodeRequirement+SpectrumTests.swift in Sources */,
+				38737A2A22459A0D00A1FB7B /* FSPConfigurationWebp.mm in Sources */,
+				38737A3122459A0D00A1FB7B /* InputStreamImageSource.mm in Sources */,
+				38737A2922459A0D00A1FB7B /* FSPConfigurationJpeg.mm in Sources */,
+				38737A3822459A0D00A1FB7B /* FSPImageMetadata.mm in Sources */,
+				38737A2D22459A0D00A1FB7B /* FSPConfigurationPng.mm in Sources */,
+				38737A3322459A0D00A1FB7B /* FSPRotateRequirement.mm in Sources */,
+				38737A4C22459A0D00A1FB7B /* FSPJpegPlugin.mm in Sources */,
+				38737A3222459A0D00A1FB7B /* BitmapImageSource.mm in Sources */,
+				38737A2B22459A0D00A1FB7B /* FSPConfiguration.mm in Sources */,
+				38737A3722459A0D00A1FB7B /* FSPResizeRequirement.mm in Sources */,
+				38737A5722459A0D00A1FB7B /* FSPEncodeRequirementTests.mm in Sources */,
+				38737A4322459A0D00A1FB7B /* Data+SpectrumTests.swift in Sources */,
+				38737A5022459A0D00A1FB7B /* FSPResizeRequirementTests.mm in Sources */,
+				38737A4222459A0D00A1FB7B /* UIImage+SSIM.swift in Sources */,
+				38737A2C22459A0D00A1FB7B /* FSPConfigurationGeneral.mm in Sources */,
+				38737A5622459A0D00A1FB7B /* FSPGeometryInternalTests.mm in Sources */,
+				38737A4822459A0D00A1FB7B /* Optional+ValueOr.swift in Sources */,
+				38737A3622459A0D00A1FB7B /* FSPEncodeRequirement.mm in Sources */,
+				38737A5522459A0D00A1FB7B /* FSPImageSpecificationTests.mm in Sources */,
+				38737A5222459A0D00A1FB7B /* FSPConfigurationTests.mm in Sources */,
+				38737A4922459A0D00A1FB7B /* FSPDefaultPlugin.m in Sources */,
+				38737A2E22459A0D00A1FB7B /* FSPTransformations.mm in Sources */,
+				38737A5822459A0D00A1FB7B /* FSPImagePixelSpecificationTests.mm in Sources */,
+				38737A3922459A0D00A1FB7B /* FSPImageOrientation.mm in Sources */,
+				38737A3E22459A0D00A1FB7B /* FSPGeometry_Private.mm in Sources */,
+				38737A5922459A0D00A1FB7B /* FSPImageOrientationTests.mm in Sources */,
 				3873739A224596F700A1FB7B /* AppDelegate.swift in Sources */,
+				38737A4B22459A0D00A1FB7B /* FSPPngPlugin.mm in Sources */,
+				38737A7322459A0D00A1FB7B /* JpegJpegRotationTests.swift in Sources */,
+				38737A7422459A0D00A1FB7B /* PngJpegReEncodingTests.swift in Sources */,
+				38737A5422459A0D00A1FB7B /* FSPImageMetadataTests.mm in Sources */,
+				38737A5122459A0D00A1FB7B /* FSPImageFormatTests.mm in Sources */,
+				38737A4622459A0D00A1FB7B /* UIImage+Orientation.swift in Sources */,
+				38737A5E22459A0D00A1FB7B /* JpegJpegReEncodingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
