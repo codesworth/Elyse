@@ -1,1 +1,0 @@
-../../../../../../../cpp/spectrum/Plugin.h

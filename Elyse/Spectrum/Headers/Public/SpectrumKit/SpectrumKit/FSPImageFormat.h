@@ -1,1 +1,0 @@
-../../../../../../SpectrumKit/SpectrumKit/Image/FSPImageFormat.h

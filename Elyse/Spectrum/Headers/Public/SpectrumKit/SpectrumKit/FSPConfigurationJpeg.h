@@ -1,1 +1,0 @@
-../../../../../../SpectrumKit/SpectrumKit/Configuration/FSPConfigurationJpeg.h

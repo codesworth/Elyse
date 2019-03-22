@@ -1,1 +1,0 @@
-../../../../../../SpectrumKit/SpectrumKit/Requirements/FSPRelativeToOriginCropRequirement.h

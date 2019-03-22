@@ -1,1 +1,0 @@
-../../../../../../SpectrumKit/SpectrumKit/Image/FSPImagePixelSpecification.h

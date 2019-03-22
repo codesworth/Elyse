@@ -1,1 +1,0 @@
-../../../../../../SpectrumKit/SpectrumKit/Private/FSPImagePixelSpecification_Private.h

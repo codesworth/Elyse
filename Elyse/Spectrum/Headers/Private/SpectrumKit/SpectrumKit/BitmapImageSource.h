@@ -1,1 +1,0 @@
-../../../../../../SpectrumKit/SpectrumKit/IO/BitmapImageSource.h

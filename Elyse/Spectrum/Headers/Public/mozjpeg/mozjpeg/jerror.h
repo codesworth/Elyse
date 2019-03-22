@@ -1,1 +1,0 @@
-../../../../mozjpeg/jerror.h

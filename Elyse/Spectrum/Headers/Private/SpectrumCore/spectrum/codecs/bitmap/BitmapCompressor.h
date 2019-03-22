@@ -1,1 +1,0 @@
-../../../../../../../../../cpp/spectrum/codecs/bitmap/BitmapCompressor.h

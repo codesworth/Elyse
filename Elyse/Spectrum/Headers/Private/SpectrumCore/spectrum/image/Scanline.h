@@ -1,1 +1,0 @@
-../../../../../../../../cpp/spectrum/image/Scanline.h

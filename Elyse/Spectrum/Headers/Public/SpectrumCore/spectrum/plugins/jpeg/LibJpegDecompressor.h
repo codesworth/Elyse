@@ -1,1 +1,0 @@
-../../../../../../../../../cpp/spectrum/plugins/jpeg/LibJpegDecompressor.h

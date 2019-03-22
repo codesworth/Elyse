@@ -1,1 +1,0 @@
-../../../../../../../../cpp/spectrum/requirements/Resize.h

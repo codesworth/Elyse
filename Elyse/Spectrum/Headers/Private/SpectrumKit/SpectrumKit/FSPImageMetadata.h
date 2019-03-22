@@ -1,1 +1,0 @@
-../../../../../../SpectrumKit/SpectrumKit/Image/FSPImageMetadata.h

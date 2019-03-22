@@ -1,1 +1,0 @@
-../../../../../../../../../cpp/spectrum/core/proc/CroppingScanlineProcessingBlock.h

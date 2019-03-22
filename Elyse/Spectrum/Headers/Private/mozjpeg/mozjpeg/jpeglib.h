@@ -1,1 +1,0 @@
-../../../../mozjpeg/jpeglib.h

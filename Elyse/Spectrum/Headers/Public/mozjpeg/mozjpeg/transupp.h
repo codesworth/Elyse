@@ -1,1 +1,0 @@
-../../../../mozjpeg/transupp.h

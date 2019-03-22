@@ -1,1 +1,0 @@
-../../../../../SpectrumKit/SpectrumKitPlugins/Default/FSPDefaultPlugin.h

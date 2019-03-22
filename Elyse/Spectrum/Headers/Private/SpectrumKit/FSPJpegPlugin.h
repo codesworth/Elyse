@@ -1,1 +1,0 @@
-../../../../../SpectrumKit/SpectrumKitPlugins/Jpeg/FSPJpegPlugin.h

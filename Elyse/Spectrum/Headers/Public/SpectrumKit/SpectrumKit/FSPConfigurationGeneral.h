@@ -1,1 +1,0 @@
-../../../../../../SpectrumKit/SpectrumKit/Configuration/FSPConfigurationGeneral.h

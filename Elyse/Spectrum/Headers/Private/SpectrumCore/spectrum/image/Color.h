@@ -1,1 +1,0 @@
-../../../../../../../../cpp/spectrum/image/Color.h

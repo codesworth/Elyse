@@ -1,1 +1,0 @@
-../../../../../../../../../cpp/spectrum/core/decisions/PixelSpecificationDecision.h
