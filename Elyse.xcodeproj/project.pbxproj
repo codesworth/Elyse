@@ -77,6 +77,7 @@
 		38737398224596F700A1FB7B /* Elyse */ = {
 			isa = PBXGroup;
 			children = (
+				387373B92245971800A1FB7B /* Spectrum */,
 				38737399224596F700A1FB7B /* AppDelegate.swift */,
 				3873739B224596F700A1FB7B /* ViewController.swift */,
 				3873739D224596F700A1FB7B /* Main.storyboard */,
@@ -94,6 +95,13 @@
 				387373B0224596FA00A1FB7B /* Info.plist */,
 			);
 			path = ElyseTests;
+			sourceTree = "<group>";
+		};
+		387373B92245971800A1FB7B /* Spectrum */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Spectrum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
