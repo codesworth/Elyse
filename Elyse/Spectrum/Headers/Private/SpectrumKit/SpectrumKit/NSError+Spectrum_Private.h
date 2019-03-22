@@ -1,0 +1,1 @@
+../../../../../../SpectrumKit/SpectrumKit/Private/NSError+Spectrum_Private.h

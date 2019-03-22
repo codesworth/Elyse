@@ -1,0 +1,1 @@
+../../../../../../SpectrumKit/SpectrumKit/IO/InputStreamImageSource.h

@@ -1,0 +1,1 @@
+../../../../../../../../cpp/spectrum/io/IEncodedImageSink.h

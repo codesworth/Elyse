@@ -1,0 +1,1 @@
+../../../../../../SpectrumKit/SpectrumKit/Private/FSPConfiguration_Private.h

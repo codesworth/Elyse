@@ -1,0 +1,1 @@
+../../../../../../SpectrumKit/SpectrumKit/Private/FSPResizeRequirement_Private.h

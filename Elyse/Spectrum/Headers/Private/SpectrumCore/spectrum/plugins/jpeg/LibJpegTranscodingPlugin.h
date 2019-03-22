@@ -1,0 +1,1 @@
+../../../../../../../../../cpp/spectrum/plugins/jpeg/LibJpegTranscodingPlugin.h

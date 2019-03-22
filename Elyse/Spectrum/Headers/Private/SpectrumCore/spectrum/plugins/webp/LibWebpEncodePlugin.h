@@ -1,0 +1,1 @@
+../../../../../../../../../cpp/spectrum/plugins/webp/LibWebpEncodePlugin.h

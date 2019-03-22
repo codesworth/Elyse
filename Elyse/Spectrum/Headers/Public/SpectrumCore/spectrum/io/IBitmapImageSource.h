@@ -1,0 +1,1 @@
+../../../../../../../../cpp/spectrum/io/IBitmapImageSource.h
